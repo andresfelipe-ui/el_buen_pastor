@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod from datetime import datetime
-class SerVivo(ABC): def init(self, nombre: str, edad: int): self._nombre = nombre self._edad =
-edad
+class SerVivo(ABC): def init(self, nombre: str, edad: int): self._nombre = nombre self._edad = edad
 @abstractmethod
 def alimentar(self):
 pass
